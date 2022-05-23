@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 70px;
+  .logo {
+    background-color: #1976d2;
+    display: block;
+    padding: 15px;
+  }
+  .tabItem {
+    min-width: 0 !important;
+  }
+
+  .listItem {
+    display: flex;
+    justify-content: center;
+  }
+}

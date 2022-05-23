@@ -1,0 +1,28 @@
+.root {
+  padding: 20px;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.root .content {
+  padding: 0;
+}
+
+.root .content .cardHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.root .content .cardHeader .cardHeaderTitle {
+  font-size: 25px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=SidebarChat.module.css.map */

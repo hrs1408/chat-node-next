@@ -1,0 +1,32 @@
+.root {
+  height: 100%;
+  padding: 20px;
+
+  .cardContent {
+    .cardHeader {
+      padding-bottom: 20px;
+
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+
+    .inputSearch {
+      background-color: #ebebeb;
+      padding: 6px;
+      width: 100%;
+      border-radius: 6px;
+      color: black;
+      font-size: 18px;
+    }
+
+    .list {
+      padding-top: 20px;
+      .listItem {
+        padding: 0;
+      }
+    }
+  }
+}

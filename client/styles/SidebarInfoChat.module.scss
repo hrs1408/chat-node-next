@@ -1,0 +1,20 @@
+.root {
+  width: 350px;
+  padding: 20px;
+
+  .header {
+    .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .avatar {
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}

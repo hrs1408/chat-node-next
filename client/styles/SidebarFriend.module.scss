@@ -1,0 +1,38 @@
+.root {
+  height: 100%;
+  padding: 20px;
+
+  .cardContent {
+    padding: 0;
+
+    .cardHeader {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+
+      .title {
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .buttonAddFriend {
+        background-color: #ebebeb;
+        color: #000;
+        text-transform: capitalize;
+
+        &:hover {
+          background-color: #c8c8c8;
+        }
+      }
+    }
+
+    .inputSearch {
+      background-color: #ebebeb;
+      padding: 6px;
+      width: 100%;
+      border-radius: 6px;
+      color: black;
+      font-size: 18px;
+    }
+  }
+}

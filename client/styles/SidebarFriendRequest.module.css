@@ -1,0 +1,32 @@
+.root {
+  height: 100%;
+  padding: 20px;
+}
+
+.root .cardContent .cardHeader {
+  padding-bottom: 20px;
+}
+
+.root .cardContent .cardHeader .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.root .cardContent .inputSearch {
+  background-color: #ebebeb;
+  padding: 6px;
+  width: 100%;
+  border-radius: 6px;
+  color: black;
+  font-size: 18px;
+}
+
+.root .cardContent .list {
+  padding-top: 20px;
+}
+
+.root .cardContent .list .listItem {
+  padding: 0;
+}
+/*# sourceMappingURL=SidebarFriendRequest.module.css.map */

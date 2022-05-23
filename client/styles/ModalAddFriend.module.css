@@ -1,0 +1,70 @@
+.root {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.root .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 20px 10px 20px;
+  background-color: #f5f5f5;
+}
+
+.root .header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.root .header .title .text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.root .header .buttonClose {
+  background-color: #e6e6e6;
+}
+
+.root .content {
+  padding: 20px;
+}
+
+.root .content .alert {
+  margin-bottom: 20px;
+}
+
+.root .content .label {
+  font-size: 20px;
+  padding: 0;
+}
+
+.root .content .formInput {
+  margin: 15px 0;
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px 4px;
+}
+
+.root .content .buttonMakeFriend {
+  text-transform: capitalize;
+  font-size: 16px;
+}
+/*# sourceMappingURL=ModalAddFriend.module.css.map */

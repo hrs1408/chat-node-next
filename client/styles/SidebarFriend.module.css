@@ -1,0 +1,43 @@
+.root {
+  height: 100%;
+  padding: 20px;
+}
+
+.root .cardContent {
+  padding: 0;
+}
+
+.root .cardContent .cardHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.root .cardContent .cardHeader .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.root .cardContent .cardHeader .buttonAddFriend {
+  background-color: #ebebeb;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.root .cardContent .cardHeader .buttonAddFriend:hover {
+  background-color: #c8c8c8;
+}
+
+.root .cardContent .inputSearch {
+  background-color: #ebebeb;
+  padding: 6px;
+  width: 100%;
+  border-radius: 6px;
+  color: black;
+  font-size: 18px;
+}
+/*# sourceMappingURL=SidebarFriend.module.css.map */

@@ -1,0 +1,209 @@
+.root {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.root .chatHeader {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.root .chatHeader .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.root .chatHeader .actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.root .chatHeader .actions .buttonGreen {
+  background-color: #0abb87;
+  color: white;
+}
+
+.root .chatHeader .actions .buttonGreen:hover {
+  background-color: #009d69;
+}
+
+.root .chatHeader .actions .buttonGray {
+  background-color: #6c757d;
+  color: white;
+}
+
+.root .chatHeader .actions .buttonGray:hover {
+  background-color: #4b4b4b;
+}
+
+.root .chatContent {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  overflow: auto;
+  padding: 20px 0 0;
+}
+
+.root .chatContent::-webkit-scrollbar {
+  display: none;
+}
+
+.root .chatContent .contentLeft .content .text {
+  background-color: #cdcdcd;
+}
+
+.root .chatContent .contentRight {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.root .chatContent .contentRight .content {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.root .chatContent .contentRight .content .text {
+  background-color: white;
+}
+
+.root .chatContent .messageNotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0;
+}
+
+.root .chatContent .messageNotify .notifyText {
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #cdcdcd;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.root .chatContent .wrapperContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.root .chatContent .wrapperContent .content {
+  max-width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.root .chatContent .wrapperContent .content .text {
+  border-radius: 5px;
+  color: #212529;
+  padding: 6px 12px;
+  line-height: 21px;
+  font-size: 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  word-break: break-word;
+}
+
+.root .chatContent .wrapperContent .content .wrapperMessageImage {
+  width: 45%;
+}
+
+.root .chatContent .wrapperContent .content .wrapperMessageImage img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.root .chatFooter {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.root .chatFooter .wrapperImages {
+  height: 150px;
+  background-color: #fff;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+}
+
+.root .chatFooter .wrapperImages .wrapperImage {
+  height: 100%;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.root .chatFooter .wrapperImages .wrapperImage .buttonCloseImage {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.root .chatFooter .wrapperImages .wrapperImage .buttonCloseImage:hover {
+  background-color: #e1e1e1;
+}
+
+.root .chatFooter .wrapperImages .wrapperImage img {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.root .chatFooter .chatInput {
+  width: 100%;
+}
+/*# sourceMappingURL=Chat.module.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAiBd;;AAnBD,AAKI,KALC,CAIH,OAAO,CACL,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAC/B;;AATL,AAWI,KAXC,CAIH,OAAO,CAOL,OAAO,CAAC;EACN,WAAW,EAAE,IAAI;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;CACvB",
+    "sources": [
+        "SidebarInfoChat.module.scss"
+    ],
+    "names": [],
+    "file": "SidebarInfoChat.module.css"
+}

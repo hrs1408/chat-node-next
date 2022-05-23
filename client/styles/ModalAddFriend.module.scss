@@ -1,0 +1,58 @@
+.root {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+    background-color: #f5f5f5;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      .text {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+
+    .buttonClose {
+      background-color: #e6e6e6;
+    }
+  }
+
+  .content {
+    padding: 20px;
+
+    .alert {
+      margin-bottom: 20px;
+    }
+
+    .label {
+      font-size: 20px;
+      padding: 0;
+    }
+
+    .formInput {
+      margin: 15px 0;
+      width: 100%;
+      border-radius: 4px;
+      padding: 8px 4px;
+    }
+
+    .buttonMakeFriend {
+      text-transform: capitalize;
+      font-size: 16px;
+    }
+  }
+}

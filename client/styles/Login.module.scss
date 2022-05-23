@@ -1,0 +1,45 @@
+.wrapper {
+  background: url('https://soho-react.laborasyon.com/static/media/bg.78f5154d.png') no-repeat;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  padding: 3rem 0;
+  height: 100vh;
+
+  .wrapperForm {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 5px;
+    width: 430px;
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+
+    .wrapperLogo {
+      background: #fff;
+      border-radius: 50%;
+      padding: 20px;
+      position: absolute;
+      top: -45px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .wrapperTitle {
+      margin: 30px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .buttonSubmit {
+      width: 100%;
+      background: #1f934d;
+      border-color: #1f934d;
+      margin-top: 30px;
+      padding: 15px 20px;
+      font-size: 17px;
+      color: white;
+      border-radius: 6px;
+    }
+  }
+
+}

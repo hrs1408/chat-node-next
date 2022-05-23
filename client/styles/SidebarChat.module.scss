@@ -1,0 +1,18 @@
+.root {
+  padding: 20px;
+  height: 100%;
+  border-radius: 8px;
+  .content {
+    padding: 0;
+    .cardHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      .cardHeaderTitle {
+        font-size: 25px;
+        font-weight: bold;
+      }
+    }
+  }
+}

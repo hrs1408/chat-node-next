@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+}
+
+.navigation {
+  position: fixed;
+  width: 70px;
+  height: 100%;
+}
+
+.wrapperContent {
+  margin-left: 70px;
+  width: calc(100% - 70px);
+  background-color: #ebebeb;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  width: 330px;
+  margin-right: 30px;
+}
+
+.content {
+  width: calc(100% - 330px);
+}
